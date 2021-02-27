@@ -1,0 +1,38 @@
+2021-02-26 16:49:32 INFO  [restartedMain]  c.w.s.SpringbootAllApplication - Starting SpringbootAllApplication using Java 1.8.0_121 on WIN-20201203EOW with PID 11012 (E:\GaoJ\projects\IdeaProjects\springboot-all\target\classes started by Administrator in E:\GaoJ\projects\IdeaProjects\springboot-all)
+2021-02-26 16:49:32 INFO  [restartedMain]  c.w.s.SpringbootAllApplication - The following profiles are active: dev
+2021-02-26 16:49:32 INFO  [restartedMain]  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-02-26 16:49:32 INFO  [restartedMain]  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-02-26 16:49:32 INFO  [restartedMain]  o.a.c.core.StandardService - Starting service [Tomcat]
+2021-02-26 16:49:32 INFO  [restartedMain]  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-26 16:49:32 INFO  [restartedMain]  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-02-26 16:49:32 INFO  [restartedMain]  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-02-26 16:49:32 INFO  [restartedMain]  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-02-26 16:49:32 INFO  [restartedMain]  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-02-26 16:49:32 INFO  [restartedMain]  o.a.c.c.C.[.[.[/springboot] - Initializing Spring embedded WebApplicationContext
+2021-02-26 16:49:32 INFO  [restartedMain]  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 377 ms
+2021-02-26 16:49:33 INFO  [restartedMain]  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-26 16:49:33 INFO  [restartedMain]  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-02-26 16:49:33 INFO  [restartedMain]  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-02-26 16:49:33 INFO  [restartedMain]  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/springboot'
+2021-02-26 16:49:33 INFO  [restartedMain]  c.w.s.SpringbootAllApplication - Started SpringbootAllApplication in 0.682 seconds (JVM running for 276.512)
+2021-02-26 16:49:33 INFO  [restartedMain]  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-02-26 16:50:09 INFO  [Thread-19]  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-26 16:50:10 INFO  [restartedMain]  c.w.s.SpringbootAllApplication - Starting SpringbootAllApplication using Java 1.8.0_121 on WIN-20201203EOW with PID 11012 (E:\GaoJ\projects\IdeaProjects\springboot-all\target\classes started by Administrator in E:\GaoJ\projects\IdeaProjects\springboot-all)
+2021-02-26 16:50:10 INFO  [restartedMain]  c.w.s.SpringbootAllApplication - The following profiles are active: dev
+2021-02-26 16:50:10 INFO  [restartedMain]  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2021-02-26 16:50:10 INFO  [restartedMain]  o.a.c.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2021-02-26 16:50:10 INFO  [restartedMain]  o.a.c.core.StandardService - Starting service [Tomcat]
+2021-02-26 16:50:10 INFO  [restartedMain]  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-26 16:50:10 INFO  [restartedMain]  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2021-02-26 16:50:10 INFO  [restartedMain]  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-02-26 16:50:10 INFO  [restartedMain]  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-02-26 16:50:10 INFO  [restartedMain]  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-02-26 16:50:10 INFO  [restartedMain]  o.a.c.c.C.[.[.[/springboot] - Initializing Spring embedded WebApplicationContext
+2021-02-26 16:50:10 INFO  [restartedMain]  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 406 ms
+2021-02-26 16:50:10 INFO  [restartedMain]  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-26 16:50:10 INFO  [restartedMain]  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-02-26 16:50:10 INFO  [restartedMain]  o.a.c.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2021-02-26 16:50:10 INFO  [restartedMain]  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/springboot'
+2021-02-26 16:50:10 INFO  [restartedMain]  c.w.s.SpringbootAllApplication - Started SpringbootAllApplication in 0.638 seconds (JVM running for 313.981)
+2021-02-26 16:50:10 INFO  [restartedMain]  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-02-26 16:53:03 INFO  [Thread-24]  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

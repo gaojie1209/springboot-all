@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--字符串-->
+欢迎，<span th:text="${username}">gj</span><br/>
+欢迎，<span th:text="${username}+超级用户">gj</span><br/>
+欢迎，<span th:text="|${username}超级用户|">gj</span><br/>
+<input value="gj" th:value="${username}">
+<!--<img src="" th:src="">-->
+<!--if-->
+条件为真，则显示
+所处的年龄段
+<span th:if="${age > 33}">老腊肉</span>
+<span th:if="${age <= 18}">小鲜肉</span>
+<br/>
+条件不为真，则显示
+<span th:unless="${age>18}" th:text="未超过18岁"></span>
+<br/>
+三元运算符
+<span th:text="${age>18 ? '长大了':'未成年'}"></span>
+<br/>
+<!--循环 th:each="stu : ${stus}"-->
+
+<table>
+    <tr>
+        <td>id</td>
+        <td>姓名</td>
+    </tr>
+    <tr th:each="stu : ${students}">
+        <td th:text="${stu.id}">id</td>
+        <td th:text="${stu.name}">姓名</td>
+    </tr>
+</table>
+日期格式化
+
+<input th:value="${#dates.format(now,'yyyy-MM-dd HH:mm:ss')}"/>
+</body>
+</html>
